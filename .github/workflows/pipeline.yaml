@@ -17,6 +17,7 @@ jobs:
         uses: actions/setup-java@v3
         with:
             distribution: 'adopt'
-            java-version: '21'
+            java-version: '17'
+
       - name: Compile and/or test our code
         run: 'Replace this with a command' (hint something with maven)
