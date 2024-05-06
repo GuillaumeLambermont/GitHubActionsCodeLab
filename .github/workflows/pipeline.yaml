@@ -19,5 +19,5 @@ jobs:
             distribution: 'adopt'
             java-version: '17'
 
-      - name: Compile and/or test our code
-        run: 'Replace this with a command' (hint something with maven)
+      - name: Compile with Maven
+        run: mvn test
