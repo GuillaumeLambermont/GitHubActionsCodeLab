@@ -22,6 +22,6 @@ class RESTControllerTest {
                 .extract()
                 .response()
                 .asString();
-        assertThat(response).isEqualTo("hello");
+        assertThat(response).isEqualTo("Hello");
     }
 }
